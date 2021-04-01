@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo10</title>
+    <script src="../static/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{ message | capitalize('arg1', 1+1) }}
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'runoob'
+        },
+        filters: {
+            capitalize: function(val1, val2, val3) {
+                if (!val1) return '';
+                console.log(val1);
+                console.log(val2);
+                console.log(val3);
+                return val1.charAt(0).toUpperCase() + val1.substring(1);
+            }
+        }
+    });
+</script>
+</body>
+</html>
