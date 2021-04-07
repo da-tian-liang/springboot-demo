@@ -16,5 +16,6 @@ public class BasicThreads {
 
     public void t1() {
         System.out.println(11);
+        System.out.println("master分支");
     }
 }
