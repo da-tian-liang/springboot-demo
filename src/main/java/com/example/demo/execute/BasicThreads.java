@@ -11,24 +11,4 @@ public class BasicThreads {
         thread.start();
         System.out.println("waiting for Liftoff!");
     }
-
-    public String test() {
-        return "完美世界";
-    }
-
-    public String test2() {
-        return "诛仙";
-    }
-
-    public String test3() {
-        return "世界";
-    }
-
-    public void t1() {
-        System.out.println("123");
-    }
-
-    public void t2() {
-        System.out.println(2);
-    }
 }
