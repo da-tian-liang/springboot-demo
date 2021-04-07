@@ -23,4 +23,8 @@ public class BasicThreads {
     public String test3() {
         return "世界";
     }
+
+    public void t1() {
+        System.out.println("123");
+    }
 }
