@@ -15,4 +15,8 @@ public class BasicThreads {
     public String test() {
         return "完美世界";
     }
+
+    public String test2() {
+        return "诛仙";
+    }
 }
