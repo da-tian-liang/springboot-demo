@@ -11,4 +11,10 @@ public class BasicThreads {
         thread.start();
         System.out.println("waiting for Liftoff!");
     }
+
+    public void t1() {
+        System.out.println(11);
+        System.out.println("master分支");
+        System.out.println("dev分支001");
+    }
 }
