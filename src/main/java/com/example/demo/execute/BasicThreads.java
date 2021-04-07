@@ -11,4 +11,8 @@ public class BasicThreads {
         thread.start();
         System.out.println("waiting for Liftoff!");
     }
+
+    public String test() {
+        return "完美世界";
+    }
 }
