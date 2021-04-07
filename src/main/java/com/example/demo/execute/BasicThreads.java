@@ -27,4 +27,8 @@ public class BasicThreads {
     public void t1() {
         System.out.println("123");
     }
+
+    public void t2() {
+        System.out.println(2);
+    }
 }
